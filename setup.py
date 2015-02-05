@@ -5,7 +5,7 @@ def readme():
         return f.read()
 
 setup(name = "hashutils",
-    version = "0.0.1",
+    version = "0.0.2",
     description = "Utility functions for hashing arrays, combining hashes.",
     long_description = readme(),
     author = "Timothy D. Morton",
