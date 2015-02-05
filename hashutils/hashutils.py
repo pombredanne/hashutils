@@ -2,6 +2,8 @@ import numpy as np
 import hashlib
 
 def hasharray(arr):
+    """This doesn't seem to work very well...
+    """
     return hash(hashlib.sha1(np.ascontiguousarray(arr)).hexdigest())
 
 def hashcombine(*xs):
